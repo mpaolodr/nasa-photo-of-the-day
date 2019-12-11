@@ -6,9 +6,7 @@ function DateChange({ dateChange }) {
       <label htmlFor="date">
         <input type="date" name="date" id="date" />
       </label>
-      <button onClick={() => dateChange(document.getElementById("date").value)}>
-        Change Date
-      </button>
+      <button onClick={dateChange}>Change Date</button>
     </div>
   );
 }

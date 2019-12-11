@@ -18,19 +18,21 @@ function App() {
   //Handler to be attached to an input field
   const dateChange = newDate => {
     setDate(newDate);
+    console.log(newDate);
   };
 
   //useEffect
   useEffect(() => {
     axios
       .get(
-        `https://api.nasa.gov/planetary/apod?api_key=nsgoV8jb5FEeibHFBrKf2IpoDDWzanILaYUbaiCJ`
+        `https://api.nasa.gov/planetary/apod?date=${date}&api_key=nsgoV8jb5FEeibHFBrKf2IpoDDWzanILaYUbaiCJ`
       )
       .then(res => {
         setImage(res.data.url);
         setExp(res.data.explanation);
         setTitle(res.data.title);
         setDate(res.data.date);
+        console.log(date);
       })
       .catch(err => console.log(err));
   }, [date]);
@@ -43,7 +45,7 @@ function App() {
         date={date}
         title={title}
         exp={exp}
-        dateChange={() => dateChange()}
+        dateChange={() => dateChange(document.getElementById("date").value)}
       />
     </div>
   );
