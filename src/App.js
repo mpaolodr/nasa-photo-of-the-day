@@ -18,7 +18,6 @@ function App() {
   //Handler to be attached to an input field
   const dateChange = newDate => {
     setDate(newDate);
-    console.log(newDate);
   };
 
   //useEffect
@@ -32,7 +31,6 @@ function App() {
         setExp(res.data.explanation);
         setTitle(res.data.title);
         setDate(res.data.date);
-        console.log(date);
       })
       .catch(err => console.log(err));
   }, [date]);
