@@ -38,7 +38,13 @@ function App() {
   return (
     <div className="App">
       <h1>Photo of the Day!</h1>
-      <Card image={image} date={date} title={title} exp={exp} />
+      <Card
+        image={image}
+        date={date}
+        title={title}
+        exp={exp}
+        dateChange={() => dateChange()}
+      />
     </div>
   );
 }
