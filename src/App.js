@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { AppContainer } from "./components/Styles.js";
 
 //COMPONENTS
 import Card from "./components/Card.js";

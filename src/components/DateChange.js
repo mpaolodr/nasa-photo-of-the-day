@@ -1,13 +1,14 @@
 import React from "react";
+import { DateContainer, InputField, Button, Label } from "./Styles.js";
 
 function DateChange({ dateChange }) {
   return (
-    <div className="dateChange">
-      <label htmlFor="date">
-        <input type="date" name="date" id="date" />
-      </label>
-      <button onClick={dateChange}>Change Date</button>
-    </div>
+    <DateContainer>
+      <Label htmlFor="date">
+        <InputField type="date" name="date" id="date" />
+      </Label>
+      <Button onClick={dateChange}>Change Date</Button>
+    </DateContainer>
   );
 }
 

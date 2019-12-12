@@ -1,12 +1,13 @@
 import React from "react";
+import { DescContainer, Text, Desc } from "./Styles.js";
 
 function Description({ title, date, exp }) {
   return (
-    <div className="descContainer">
-      <h2>{title}</h2>
-      <h2>{date}</h2>
-      <p>{exp}</p>
-    </div>
+    <DescContainer className="descContainer">
+      <Text>{title}</Text>
+      <Text>{date}</Text>
+      <Desc>{exp}</Desc>
+    </DescContainer>
   );
 }
 

@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+//STYLES FOR APP
+
 //STYLES FOR CARD CONTAINER
 export const CardStyle = styled.div`
   width: 500px;
@@ -46,22 +48,31 @@ export const Desc = styled.p`
 `;
 
 //STYLES FOR DATE CHANGE COMPONENT
-export const DateChange = styled.div`
+export const DateContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+`;
+
+export const Label = styled.label`
+  grid-column: 1 / 2;
+  justify-self: right;
 `;
 
 export const InputField = styled.input`
-  font-size: 1.4rem;
+  font-size: 1rem;
   border-radius: 10px;
   padding: 5px;
-  grid-column: 1 / 2;
+  width: 100%;
 `;
 
 export const Button = styled.button`
+  width: 50%;
   border-radius: 10px;
   margin-left: 10px;
-  height: 35px;
-  font-size: 1.3rem;
+  height: 30px;
+  font-size: 0.7rem;
+  justify-self: left;
   grid-column: 2 / 3;
 `;
