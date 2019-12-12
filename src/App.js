@@ -7,7 +7,7 @@ import Card from "./components/Card.js";
 import axios from "axios";
 
 //STYLES
-import "./App.css";
+import "./App.scss";
 
 function App() {
   const [image, setImage] = useState([]);
@@ -50,16 +50,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <div className="cardContainer">
-          <div className="imageContainer">
-            <img src="" alt=""/>
-          </div>
-          <div className="descContainer">
-            <p>Desc</p>
-            <p>Desc</p>
-            <p>Desc</p>
-          </div>
-        </div> */
-}

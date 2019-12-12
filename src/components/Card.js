@@ -10,8 +10,10 @@ function Card(props) {
   return (
     <div className="cardContainer">
       <ImageContainer image={image} />
-      <Description title={title} date={date} exp={exp} />
-      <DateChange dateChange={dateChange} />
+      <div className="hide">
+        <Description title={title} date={date} exp={exp} />
+        <DateChange dateChange={dateChange} />
+      </div>
     </div>
   );
 }
