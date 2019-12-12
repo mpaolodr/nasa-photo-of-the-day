@@ -20,7 +20,7 @@ export const Hide = styled.div`
 `;
 
 //STYLES FOR IMAGECONTAINER COMPONENT
-export const ImageContainer = styled.div`
+export const ImageDiv = styled.div`
   width: 100%;
   height: 100%;
 `;
