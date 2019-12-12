@@ -1,87 +1,87 @@
-.App {
-  height: auto;
-  text-align: center;
-  margin: 0 auto;
-  background: url("./assets/bg.svg");
-  height: 100vh;
+// .App {
+//   height: auto;
+//   text-align: center;
+//   margin: 0 auto;
+//   background: url("./assets/bg.svg");
+//   height: 100vh;
 
-  .cardContainer {
-    width: 500px;
-    height: 550px;
-    margin: 0 auto;
-    border-radius: 20px;
-    overflow: hidden;
-    color: white;
-    position: relative;
+//   .cardContainer {
+//     width: 500px;
+//     height: 550px;
+//     margin: 0 auto;
+//     border-radius: 20px;
+//     overflow: hidden;
+//     color: white;
+//     position: relative;
 
-    p {
-      font-size: 0.8rem;
-    }
+//     p {
+//       font-size: 0.8rem;
+//     }
 
-    .hide {
-      position: absolute;
-      top: 600px;
-      width: 100%;
-      transition: position 2.4s ease-in;
-    }
+//     .hide {
+//       position: absolute;
+//       top: 600px;
+//       width: 100%;
+//       transition: position 2.4s ease-in;
+//     }
 
-    input[type="date"] {
-      font-size: 1.4rem;
-      border-radius: 10px;
-      padding: 5px;
-    }
+//     input[type="date"] {
+//       font-size: 1.4rem;
+//       border-radius: 10px;
+//       padding: 5px;
+//     }
 
-    button {
-      border-radius: 10px;
-      margin-left: 10px;
-      height: 35px;
-      font-size: 1.3rem;
-    }
-  }
+//     button {
+//       border-radius: 10px;
+//       margin-left: 10px;
+//       height: 35px;
+//       font-size: 1.3rem;
+//     }
+//   }
 
-  .imageContainer {
-    width: 100%;
-    height: 100%;
+//   .imageContainer {
+//     width: 100%;
+//     height: 100%;
 
-    img {
-      width: 100%;
-      height: 100%;
-      cursor: pointer;
-      object-fit: cover;
-    }
-  }
+//     img {
+//       width: 100%;
+//       height: 100%;
+//       cursor: pointer;
+//       object-fit: cover;
+//     }
+//   }
 
-  .descContainer {
-    margin: 0 20px;
-  }
-}
+//   .descContainer {
+//     margin: 0 20px;
+//   }
+// }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+// .App-logo {
+//   animation: App-logo-spin infinite 20s linear;
+//   height: 40vmin;
+//   pointer-events: none;
+// }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
 
-.App-link {
-  color: #61dafb;
-}
+// .App-link {
+//   color: #61dafb;
+// }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
