@@ -1,6 +1,13 @@
 import styled from "styled-components";
+import img from "../assets/bg.svg";
 
 //STYLES FOR APP
+export const AppContainer = styled.div`
+  text-align: center;
+  margin: 0 auto;
+  background: url(${img});
+  height: 100vh;
+`;
 
 //STYLES FOR CARD CONTAINER
 export const CardStyle = styled.div`

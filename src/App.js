@@ -37,7 +37,7 @@ function App() {
   }, [date]);
 
   return (
-    <div className="App">
+    <AppContainer>
       <h1>Photo of the Day!</h1>
       <Card
         image={image}
@@ -46,7 +46,7 @@ function App() {
         exp={exp}
         dateChange={() => dateChange(document.getElementById("date").value)}
       />
-    </div>
+    </AppContainer>
   );
 }
 
